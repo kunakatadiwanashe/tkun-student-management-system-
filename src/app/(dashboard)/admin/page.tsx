@@ -1,6 +1,10 @@
 import UserCard from '@/components/UserCard'
 import React from 'react'
 import Chart from '@/components/Chart'
+import Attendance from '@/components/Attendance'
+import Calendar from '@/components/Calendar'
+import Announcements from '@/components/Announcements'
+import EventCalendar from '@/components/Calendar'
 
 const AdminPage = () => {
 return (
@@ -19,11 +23,17 @@ return (
         <Chart />
       </div>
       <div className='AttendanceChart w-full lg:w-2/3 h-[450]]'>
-
+       
+          <Attendance />
       </div>
     </div>
 
   </div>
+
+  <div className="w-full lg:w-1/3 flex flex-col gap-8">
+       <EventCalendar />
+        <Announcements/>
+      </div>
 
 
 </div>

@@ -17,12 +17,12 @@ const data = [
   {
     name: "Girls",
     count: 53,
-    fill: "#FAE27C",
+    fill: "#F3797E",
   },
   {
     name: "Boys",
     count: 53,
-    fill: "#C3EBFA",
+    fill: "#98BDFF",
   },
 ];
 
